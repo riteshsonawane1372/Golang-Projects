@@ -31,7 +31,6 @@ var movies []Movie
 func main() {
 	r := mux.NewRouter()
 
-
 	movies = append(movies, 
 		Movie{
 		Id: "1",
