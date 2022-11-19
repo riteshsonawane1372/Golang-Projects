@@ -13,8 +13,8 @@ import (
 func main() {
 
 	// Setting up the Slack env
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-4313735501776-4302714749857-8YBAeSPI12H6eKaEKxLwmhES")
-	os.Setenv("SLACK_APP_TOKEN", "xapp-1-A048J1760GJ-4275501196311-0e75d1b037832e88542f8f84ab05a73102d8681a0bc1bb263ae0a6068fc9ef09")
+	os.Setenv("")
+	os.Setenv("")
 
 	// Creating Bot
 
