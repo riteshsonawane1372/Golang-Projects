@@ -31,4 +31,3 @@ jobs:
       with:
        path: ../"Basic Web server"
        artifact-name: basicweb.spdx
-       outputfile: ./spdx
