@@ -26,3 +26,9 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+    
+    - uses: anchore/sbom-action@v0
+      with:
+       path: ./basic-web
+       artifact-name: basicweb.spdx
+       outputfile: ./spdx
