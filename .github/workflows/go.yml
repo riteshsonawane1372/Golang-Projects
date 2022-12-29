@@ -29,6 +29,6 @@ jobs:
     
     - uses: anchore/sbom-action@v0
       with:
-       path: ./"Basic Web server"
+       path: ../"Basic Web server"
        artifact-name: basicweb.spdx
        outputfile: ./spdx
