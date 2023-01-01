@@ -26,7 +26,8 @@ jobs:
 
     - name: Test
       run: go test -v ./...
-    
-    - uses: anchore/sbom-action@v0
+    - name: Anchore Sbom Action
+      uses: anchore/sbom-action@v0.13.1
       with:
-       artifact-name: basicweb.spdx
+        path: "/Basic Web Server"
+        format: spdx
