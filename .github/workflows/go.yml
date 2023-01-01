@@ -28,3 +28,4 @@ jobs:
       with:
         format: spdx
         path: ./Basic Web server/
+        file: ./Basic Web server/go.mod
