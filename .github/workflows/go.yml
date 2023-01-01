@@ -18,14 +18,17 @@ jobs:
 
     - name: Set up Go
       uses: actions/setup-go@v3
-      with:
+      with: 
         go-version: 1.19
 
-
-
-    - name: Anchore Sbom Action
+    - name: Anchore SBOM Action
       uses: anchore/sbom-action@v0.13.1
       with:
-        format: spdx
-        path: ./Basic Web server/
-        file: ./Basic Web server/go.mod
+       path: ./Basic Web server/
+       file: go.mod
+       format: spdx
+       artifact-name: basicserver.spdx
+       dependency-snapshot: false
+       upload-artifact: true
+       upload-release-assets: true
+  
