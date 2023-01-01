@@ -26,5 +26,4 @@ jobs:
     - name: Anchore Sbom Action
       uses: anchore/sbom-action@v0.13.1
       with:
-        path: Basic Web Server
         format: spdx
