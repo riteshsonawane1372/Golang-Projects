@@ -23,12 +23,5 @@ jobs:
 
     - name: Anchore SBOM Action
       uses: anchore/sbom-action@v0.13.1
-      with:
-       path: ./Basic Web server/
-       file: go.mod
-       format: spdx
-       artifact-name: basicserver.spdx
-       dependency-snapshot: false
-       upload-artifact: true
-       upload-release-assets: true
+
   
